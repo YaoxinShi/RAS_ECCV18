@@ -71,3 +71,18 @@ Reference
 ---
 [1] Hou, Q., Cheng, M.M., Hu, X., Borji, A., Tu, Z., Torr, P.: Deeply supervised
 salient object detection with short connections. In: CVPR. (2017) 5300–5309.
+
+======
+
+Python:
+* 1.	Download caffe prebuild binary “Visual Studio 2015, CPU only, Python 3.6: Caffe Release” from: https://github.com/Coderx7/Caffe_1.0_Windows
+* 2.	Unzip to C:\doc\tools\caffe_MSVC14_Release_CPU_Py3.6\bin\
+* 3.	Add C:\doc\tools\caffe_MSVC14_Release_CPU_Py3.6\bin\ to PATH
+* 4.	Copy folder C:\doc\tools\caffe_MSVC14_Release_CPU_Py3.6\python\caffe to C:\Python27\Lib\site-packages\
+
+Pre-trained model:
+* Pre-trained RAS model [Google drive](https://drive.google.com/open?id=1vDHzr0O7qcQcx0qkzz0iSe5qTPn8h6J0).
+
+Command line:
+* python RAS-tutorial_save.py
+
